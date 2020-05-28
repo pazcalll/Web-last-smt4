@@ -20,7 +20,7 @@
 
 </head>
 
-<body class="bg-gradient-primary">
+<body class="bg-gradient-primary" style="background: #313131">
 
   <div class="container">
 
@@ -29,23 +29,23 @@
 
       <div class="col-xl-10 col-lg-12 col-md-9">
 
-        <div class="card o-hidden border-0 shadow-lg my-5">
+        <div class="card o-hidden border-0 shadow-lg my-5" style="background: #414141">
           <div class="card-body p-0">
             <!-- Nested Row within Card Body -->
             <div class="row">
-              <div class="col-lg-6 d-none d-lg-block bg-login-image"></div>
+              <div class="col-lg-6 d-none d-lg-block"><img src="https://fslrmdhnmln.files.wordpress.com/2013/08/logo-sd1.png" style="height: 500px; margin-left: 40px" alt="sekolah dasar"></div>
               <div class="col-lg-6">
                 <div class="p-5">
                   <div class="text-center">
-                    <h1 class="h4 text-gray-900 mb-4">Admin SD Negeri 1 Control Panel</h1>
+                    <h1 class="h4 text-white-900 mb-4" style="color: white; opacity: 50%">Admin SD Negeri 1 Control Panel</h1>
                   </div>
-                  <form method="GET" action="{{url('admin')}}" class="user">
+                  <form method="GET" action="{{ url('admin') }}" class="user">
                       @csrf
                     <div class="form-group">
-                      <input type="text" required class="form-control form-control-user" name="username" id="username" aria-describedby="emailHelp" placeholder="Enter Username">
+                      <input style="background-color: #5c5c5c; color: #a3a3a3; font-size: 16px;" type="text" required class="form-control form-control-user border-0" name="username" id="username" aria-describedby="emailHelp" placeholder="Enter Username">
                     </div>
                     <div class="form-group">
-                      <input type="password" required class="form-control form-control-user" name="password" id="exampleInputPassword" placeholder="Password">
+                      <input style="background-color: #5c5c5c; color: #a3a3a3; font-size: 16px;" type="password" required class="form-control form-control-user border-0" name="password" id="exampleInputPassword" placeholder="Password">
                     </div>
                     <div class="form-group">
                       <div class="custom-control custom-checkbox small">
@@ -53,7 +53,7 @@
                         <!-- <label class="custom-control-label" for="customCheck">Remember Me</label> -->
                       </div>
                     </div>
-                    <button type="submit" class="btn btn-primary btn-user btn-block">
+                    <button type="submit" class="btn btn-success btn-user btn-block">
                       Login
                     </button>
                     <hr>
