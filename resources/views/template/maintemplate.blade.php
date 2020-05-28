@@ -198,7 +198,8 @@
         <div class="container my-auto">
           <div class="text-center my-auto" style="color: white; opacity: 60%">
             <!-- <span>Copyright &copy; Your Website 2019</span> -->
-            <span>Made by Yazeed &copy;</span>
+            <span>Made by Yazeed &copy;</span><br>
+            <span>Powered by startbootstrap.com</span>
           </div>
         </div>
       </footer>
